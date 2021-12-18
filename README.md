@@ -7,7 +7,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 The following are the Ansible Playbooks created and used on the DVWA and Elk Stack:
 
-•	docker-python.yml ![](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/docker-python.yml}
+•	docker-python.yml ![](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/docker-python.yml)
 
 •	install-elk.yml
 
