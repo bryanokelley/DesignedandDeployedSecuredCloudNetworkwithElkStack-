@@ -7,27 +7,19 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 The following are the Ansible Playbooks created and used on the DVWA and Elk Stack:
 
-[docker-python.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/docker-python.yml)
-
-[install-elk.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/install-elk.yml)
-
-[filebeat-playbook.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/filebeat-playbook.yml)
-
-[metricbeat-playbook.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/metricbeat-playbook.yml)
+- [docker-python.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/docker-python.yml)
+- [install-elk.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/install-elk.yml)
+- [filebeat-playbook.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/filebeat-playbook.yml)
+- [metricbeat-playbook.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/metricbeat-playbook.yml)
 
 This document contains the following details:
 
-•	Description of the Topology
-
-•	Access Policies
-
-•	ELK Configuration
-
-•	Beats in Use
-
-•	Machines Being Monitored
-
-•	How to Use the Ansible Build
+- Description of the Topology
+-	Access Policies
+-	ELK Configuration
+-	Beats in Use
+-	Machines Being Monitored
+-	How to Use the Ansible Build
 
 Description of the Topology
 
@@ -92,7 +84,7 @@ Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
-•	Automating the installation process allows for deployment to multiple servers simultaneously quickly without physically touching the servers.
+- Automating the installation process allows for deployment to multiple servers simultaneously quickly without physically touching the servers.
 
 The playbook implements the following tasks:
 
@@ -109,23 +101,19 @@ Target Machines & Beats
 
 This ELK server is configured to monitor the following machines:
 
-•	Web-1: 10.0.0.7
-
-•	Web-2: 10.0.0.9
-
-•	Web-3: 10.0.0.10
+-	Web-1: 10.0.0.7
+-	Web-2: 10.0.0.9
+-	Web-3: 10.0.0.10
 
 We have installed the following Beats on these machines:
 
-•	Filebeat
-
-•	Metricbeat
+-	Filebeat
+-	Metricbeat
 
 These Beats allow us to collect the following information from each machine:
 
-•	Filebeat was installed to monitor log files and locations and collect log events (Filebeat: Lightweight Log Analysis, Elasticsearch 2021).
-
-•	Metricbeat was installed to record statistical data from services running on the server (Metricbeat: Lightweight Shipper for Metrics 2021).
+-	Filebeat was installed to monitor log files and locations and collect log events (Filebeat: Lightweight Log Analysis, Elasticsearch 2021).
+-	Metricbeat was installed to record statistical data from services running on the server (Metricbeat: Lightweight Shipper for Metrics 2021).
 
 Using the Playbook
 
@@ -138,27 +126,25 @@ SSH into the control node and follow the steps below:
 
 Which file is the playbook?
 
-•	install-elk.yml
-
-•	filebeat-playbook.yml
-
-•	metricbeat-playbook.yml
+-	install-elk.yml
+-	filebeat-playbook.yml
+-	metricbeat-playbook.yml
 
 Where do you copy it?
 
-•	etc/ansible
+-	etc/ansible
 
 Which file do you update to make Ansible run the playbook on a specific machine?
 
-•	/etc/ansible/hosts
+-	/etc/ansible/hosts
 
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 
-•	Modify /etc/ansible/hosts with the webserver IP address and the Elk Stack IP address.
+-	Modify /etc/ansible/hosts with the webserver IP address and the Elk Stack IP address.
 
 Which URL do you navigate to in order to check that the ELK server is running?
 
-•	Elk-Stack-Public-IP:5601
+-	Elk-Stack-Public-IP:5601
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 1. ssh admin_account_name@jumpboxpublicIP
