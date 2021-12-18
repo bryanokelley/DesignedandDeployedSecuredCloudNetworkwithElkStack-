@@ -13,7 +13,7 @@ The following are the Ansible Playbooks created and used on the DVWA and Elk Sta
 
 [filebeat-playbook.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/filebeat-playbook.yml)
 
-[etricbeat-playbook.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/metricbeat-playbook.yml)
+[metricbeat-playbook.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/metricbeat-playbook.yml)
 
 This document contains the following details:
 
