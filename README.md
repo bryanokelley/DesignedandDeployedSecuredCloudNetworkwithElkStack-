@@ -78,7 +78,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running ‘sudo docker ps -a’ after successfully configuring the ELK instance:
 
-![](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Images/Elk_Container_Running.png}
+![](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Images/Elk_Container_Running.png)
 
 Target Machines & Beats
 This ELK server is configured to monitor the following machines:
