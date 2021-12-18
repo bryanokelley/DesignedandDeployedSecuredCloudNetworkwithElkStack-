@@ -8,17 +8,25 @@ These files have been tested and used to generate a live ELK deployment on Azure
 The following are the Ansible Playbooks created and used on the DVWA and Elk Stack:
 
 [docker-python.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/docker-python.yml)
+
 [install-elk.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/install-elk.yml)
+
 [filebeat-playbook.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/filebeat-playbook.yml)
+
 [metricbeat-playbook.yml](https://github.com/bryanokelley/DesignedandDeployedSecuredCloudNetworkwithElkStack-/blob/main/Playbooks/metricbeat-playbook.yml)
 
 This document contains the following details:
 
 •	Description of the Topology
+
 •	Access Policies
+
 •	ELK Configuration
+
 •	Beats in Use
+
 •	Machines Being Monitored
+
 •	How to Use the Ansible Build
 
 Description of the Topology
@@ -105,12 +113,15 @@ Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
 •	Web-1: 10.0.0.7
+
 •	Web-2: 10.0.0.9
+
 •	Web-3: 10.0.0.10
 
 We have installed the following Beats on these machines:
 
 •	Filebeat
+
 •	Metricbeat
 
 These Beats allow us to collect the following information from each machine:
@@ -130,7 +141,9 @@ SSH into the control node and follow the steps below:
 Which file is the playbook?
 
 •	install-elk.yml
+
 •	filebeat-playbook.yml
+
 •	metricbeat-playbook.yml
 
 Where do you copy it?
