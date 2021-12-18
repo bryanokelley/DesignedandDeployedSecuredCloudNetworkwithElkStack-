@@ -8,17 +8,25 @@ These files have been tested and used to generate a live ELK deployment on Azure
 The following are the Ansible Playbooks created and used on the DVWA and Elk Stack:
 
 •	docker-python.yml
+
 •	install-elk.yml
+
 •	filebeat-playbook.yml
+
 •	metricbeat-playbook.yml
 
 This document contains the following details:
 
 •	Description of the Topology
+
 •	Access Policies
+
 •	ELK Configuration
+
 •	Beats in Use
+
 •	Machines Being Monitored
+
 •	How to Use the Ansible Build
 
 Description of the Topology
@@ -89,8 +97,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The playbook implements the following tasks:
 
 1. Installation of docker.io and python3-pip
+
 2. Virtual Memory increase to 262144
+
 3. Download and Launches Elk Docker Container
+
 4. Sets Public Ports
 
 The following screenshot displays the result of running ‘sudo docker ps -a’ after successfully configuring the ELK instance:
@@ -102,17 +113,21 @@ Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
 •	Web-1: 10.0.0.7
+
 •	Web-2: 10.0.0.9
+
 •	Web-3: 10.0.0.10
 
 We have installed the following Beats on these machines:
 
 •	Filebeat
+
 •	Metricbeat
 
 These Beats allow us to collect the following information from each machine:
 
 •	Filebeat was installed to monitor log files and locations and collect log events (Filebeat: Lightweight Log Analysis, Elasticsearch 2021).
+
 •	Metricbeat was installed to record statistical data from services running on the server (Metricbeat: Lightweight Shipper for Metrics 2021).
 
 Using the Playbook
@@ -127,7 +142,9 @@ SSH into the control node and follow the steps below:
 Which file is the playbook?
 
 •	install-elk.yml
+
 •	filebeat-playbook.yml
+
 •	metricbeat-playbook.yml
 
 Where do you copy it?
