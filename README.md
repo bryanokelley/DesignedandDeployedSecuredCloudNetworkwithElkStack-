@@ -159,5 +159,7 @@ As a **Bonus**, provide the specific commands the user will need to run to downl
 
 References
 Filebeat: Lightweight Log Analysis &amp; Elasticsearch. Elastic. (2021). Retrieved December 18, 2021, from https://www.elastic.co/beats/filebeat
+
 Implementing Secure Administrative Hosts. Microsoft. (2021, July 29). Retrieved December 18, 2021, from https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-secure-administrative-hosts
+
 Metricbeat: Lightweight Shipper for Metrics. Elastic. (2021). Retrieved December 18, 2021, from https://www.elastic.co/beats/metricbeat
