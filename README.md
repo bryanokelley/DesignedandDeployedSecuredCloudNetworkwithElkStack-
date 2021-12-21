@@ -146,7 +146,7 @@ Which URL do you navigate to in order to check that the ELK server is running?
 
 -	Elk-Stack-Public-IP:5601
 
-As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
+Specific commands the user will need to run to download the playbook, update the files, etc:
 1. ssh admin_account_name@jumpboxpublicIP
 2. sudo docker ps -a
 3. sudo docker start "silly_name"
