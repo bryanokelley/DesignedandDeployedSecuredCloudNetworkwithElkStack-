@@ -75,9 +75,9 @@ A summary of the access policies in place can be found in the table below:
 | Function             | Publicly Accessible   | Allowed IP Address                                          |
 |----------------------|-----------------------|-------------------------------------------------------------|
 | Jump-Box-Provisioner | No                    | Personal Public IP Address                                  |
-| Web-1                | Through Load Balancer | Load Balancer Public IP: 20.127.9.229 & Jump Box: 10.0.0.9  |
-| Web-2                | Through Load Balancer | Load Balancer Public IP: 20.127.9.229 & Jump Box: 10.0.0.7  |
-| Web-3                | Through Load Balancer | Load Balancer Public IP: 20.127.9.229 & Jump Box: 10.0.0.10 |
+| Web-1                | Through Load Balancer | Personal Public IP Address & Jump Box: 10.0.0.9             |
+| Web-2                | Through Load Balancer | Personal Public IP Address & Jump Box: 10.0.0.7             |
+| Web-3                | Through Load Balancer | Personal Public IP Address & Jump Box: 10.0.0.10            |
 | Red-Team-Elk         | No                    | Personal Public IP Address:5601 & Jump Box SSH: 10.1.0.4    |
 
 Elk Configuration
